@@ -33,19 +33,19 @@ division1.push(new division(k,height-divisionheight/2,10,divisionheight))
  
 for (var j = 40; j <= width;j=j+50){
 
-plinko1.push(new plinko(j,75,30));
+plinko1.push(new plinko(j,75,15));
 
 }
 
 for (var j = 15; j <= width-10;j=j+50){
 
-  plinko1.push(new plinko(j,175,30));
+  plinko1.push(new plinko(j,175,15));
   
   }
 
   if (frameCount%60 === 0 ){
 
-particles1.push(new particles(width/2-10,width/2+10),10,10)
+    particles1.push(new particles(random(width/2-50,width/2+50),10,5))
 
  
   }
